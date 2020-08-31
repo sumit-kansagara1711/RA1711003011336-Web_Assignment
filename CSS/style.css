@@ -1,0 +1,172 @@
+html, body{
+  margin: 0;
+  color: #333333;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+header{
+  background: linear-gradient(to right, rgba(255,255,255,0.9), rgba(255,255,255,0.5)), url('../Images/bg_img.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+nav img{
+  vertical-align: middle;
+}
+
+nav a.logo{
+  display: inline-block;
+  line-height: 150px;
+}
+
+header nav{
+  height: 90px;
+  margin-left: 5%;
+}
+
+nav a.text{
+  font-family: sans-serif;
+  float: right;
+  line-height: normal;
+  margin-top: 70px;
+  margin-right: 9%;
+  padding: 7px 15px;
+  font-weight: 700;
+  font-size: 20px;
+  text-decoration: none;
+  color: #333333;
+}
+
+.pitch{
+  margin: 0 3%;
+  position: absolute;
+  top: 35%;
+  font-size: 1.8vw;
+}
+
+.pitch_title{
+  font-size: 3em;
+  margin: 0 0 0.2em;
+  font-weight: 700;
+}
+
+.pitch_subtitle{
+  margin: 0 0 .5em;
+}
+
+.btn{
+  font-size: 17px;
+  letter-spacing: 1.9px;
+  font-weight: 400;
+  margin: .5em .5em .5em 0;
+  padding: 12px 2em;
+  color: #d6d0d0;
+  background-color: #333333;
+  cursor: pointer;
+  text-decoration: none;
+  vertical-align: middle;
+  border-radius: 7px;
+  user-select: none;
+  border: 0;
+}
+
+.btn:hover{
+  background: #292929;
+}
+
+.text:hover{
+  color: #141414;
+}
+
+a img.resize{
+  opacity: .8;
+  width: 75px;
+  height: 75px;
+}
+
+#feature > nav{
+  padding-top: 35px;
+  background-color: inherit;
+  border-bottom: 2px solid #3d3d3d;
+}
+
+#feature > nav a{
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  color: inherit;
+  height: 125px;
+  line-height: 20px;
+}
+
+#feature > nav a.resize img:hover{
+  opacity: 1;
+}
+
+#feature > nav a h2{
+  margin: 10px 0 0;
+  font-size: 1em;
+}
+
+.columns{
+  display: flex;
+  align-items: flex-end;
+}
+
+.column{
+  display: block;
+  flex-basis: 0;
+  flex-grow: 2;
+  flex-shrink: 2;
+}
+
+.center{
+  margin: 0 auto;
+}
+
+.size-80{
+  width: 65%;
+}
+
+#feature > nav a.is-selected{
+}
+
+#feature > article > section{
+  display: none;
+  padding: 40px 0;
+}
+
+#feature > article > section.is-selected{
+  display: block;
+}
+
+h2.title{
+  margin-left: 10%;
+}
+
+p.subtitle{
+  margin-left: 12%;
+}
+
+img.Ve{
+  width: 1024px;
+  height: 576px;
+}
+
+mark.contact{
+  background-color:#333333;
+  color: #d6d0d0;
+}
+
+footer.space{
+  margin-left: 20%;
+}
